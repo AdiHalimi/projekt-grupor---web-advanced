@@ -16,26 +16,39 @@
         </ul>
     </div>
 
-        <div class="page-wrapper">
-            <div class="form-container">
-                <h2>Sign in Form</h2>
-                <form>
-                    <label for="firstname">First Name:</label><br>
-                    <input type="text" name="firstname" id="firstname" required><br><br>  
-    
-                    <label for="lastname">Last Name:</label><br>
-                    <input type="text" name="lastname" id="lastname" required><br><br>   
-    
-                    <label for="email">Email:</label><br>
-                    <input type="email" name="email" id="email" required><br><br>          
-    
-                    <label for="password">Password:</label><br>
-                    <input type="password" name="password" id="password" max="12" required><br><br>
-    
-                    <input type="submit" id="submit" name="submit" value="Submit">
-                </form>
-            </div>
-        </div>
+<div class="page-wrapper">
+    <div class="form-container" id="signinform">
+        <h2>Sign in Form</h2>
+        <form id="signinForm">
+            <label for="firstname">First Name:</label><br>
+            <input type="text" name="firstname" id="firstname" required><br><br>  
+
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" name="lastname" id="lastname" required><br><br>   
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" required><br><br>          
+
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" id="password" maxlength="25" required><br><br>
+
+            <input type="submit" id="submit" name="submit" value="Submit">
+        </form>
+    </div>
+</div>
+<section class="contact-section">
+    <div class="contact-box">
+        <h2>Get in Touch</h2>
+        <div class="line"></div>
+        <p><strong>Address:</strong> 1000, Prishtina, Kosovo</p>
+        <p><strong>Phone:</strong> +383 8888-888</p>
+        <p><strong>Email:</strong> contact@autoKosova.com</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 - autoKosova. All rights reserved.</p>
+</footer>
 <script src="sing.js"></script>
 </body>
 </html>
