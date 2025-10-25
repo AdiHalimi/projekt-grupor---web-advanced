@@ -1,8 +1,7 @@
-
 document.addEventListener("DOMContentLoaded", function () {
 
 
-    alert("Welcome to the Home page!");
+    alert("Welcome to the Sign in page!");
 
     const currentPage = window.location.pathname.split("/").pop();
     const links = document.querySelectorAll(".navbar a");
